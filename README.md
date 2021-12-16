@@ -93,6 +93,8 @@
 - Inigo Alonso, Ana C. Murillo
 - [code](https://github.com/xupinjie/Ev-SegNet)
 
-
+#### [(ICMVA)Standard and Event Cameras Fusion for Feature Tracking](https://dl.acm.org/doi/10.1145/3459066.3459075)
+- Yan Dong, Tao Zhang
+- [code](https://github.com/LarryDong/FusionTracking)
 
 
