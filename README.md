@@ -65,7 +65,7 @@
 #### [(CVPR 2021)Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/pdf/2104.09224.pdf) 
 - Aditya Prakash, Kashyap Chitta, Andreas Geiger
 - [code](https://github.com/autonomousvision/transfuser)
-- LiDAR和frame的融合，使用transformer
+- LiDAR和frame的融合，使用transformer。利用resnet结构获得不同尺度的特征图，而transformer则在相同尺度内融合两种模态的数据和全局信息
 
 
 #### [(AAAI 2022)Simple 2D Image and 3D Point Cloud Unsupervised Pre-training for spatial-aware visual representation](https://arxiv.org/abs/2112.04680) 
