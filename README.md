@@ -65,11 +65,6 @@
 - [code](https://github.com/uzh-rpg/rpg_esim)
 
 
-#### ✅｜[(CVPR 2021)Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/pdf/2104.09224.pdf) 
-- Aditya Prakash, Kashyap Chitta, Andreas Geiger
-- [code](https://github.com/autonomousvision/transfuser)
-- LiDAR和frame的融合，使用transformer。利用resnet结构获得不同尺度的特征图，而transformer则在相同尺度内融合两种模态的数据和全局信息
-
 
 #### ✅｜[(ICIAP 2019)Video synthesis from Intensity and Event Frames](https://iris.unimore.it/retrieve/handle/11380/1178955/233862/ICIAP19_Event_Cameras.pdf)
 - Stefano Pini, Guido Borghi, Roberto Vezzani, Rita Cucchiara
@@ -88,6 +83,14 @@
 #### [(ICMVA)Standard and Event Cameras Fusion for Feature Tracking](https://dl.acm.org/doi/10.1145/3459066.3459075)
 - Yan Dong, Tao Zhang
 - [code](https://github.com/LarryDong/FusionTracking)
+
+## Transformer multi-modal fusion
+
+#### ✅｜[(CVPR 2021)Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/pdf/2104.09224.pdf) 
+- Aditya Prakash, Kashyap Chitta, Andreas Geiger
+- [code](https://github.com/autonomousvision/transfuser)
+- LiDAR和frame的融合，使用transformer。利用resnet结构获得不同尺度的特征图，而transformer则在相同尺度内融合两种模态的数据和全局信息
+
 
 ## Utils
 
