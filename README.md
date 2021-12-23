@@ -69,6 +69,7 @@
 #### ✅｜[(ICIAP 2019)Video synthesis from Intensity and Event Frames](https://iris.unimore.it/retrieve/handle/11380/1178955/233862/ICIAP19_Event_Cameras.pdf)
 - Stefano Pini, Guido Borghi, Roberto Vezzani, Rita Cucchiara
 - [code]
+- 一个全卷积encoder-decoder结构，将frame和event frame concat之后，预测将来的frame。
 
 
 #### [(ITSC 2020)DDD20 End-to-End Event Camera Driving Dataset: Fusing Frames and Events with Deep Learning for Improved Steering Prediction](https://arxiv.org/pdf/2005.08605.pdf)
