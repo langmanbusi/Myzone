@@ -54,16 +54,28 @@
 - [code](https://github.com/uzh-rpg/rpg_vid2e)
 
 
+#### ✅｜[(CoRL 2018)ESIM-an Open Event Camera Simulator](http://rpg.ifi.uzh.ch/docs/CORL18_Rebecq.pdf)
+- [code](https://github.com/uzh-rpg/rpg_esim)
+
+
+#### [(ITSC 2020)DDD20 End-to-End Event Camera Driving Dataset: Fusing Frames and Events with Deep Learning for Improved Steering Prediction](https://arxiv.org/pdf/2005.08605.pdf)
+- Yuhuang Hu, Jonathan Binas, Daniel Neil, Shih-Chii Liu and Tobi Delbruck
+- [code]
+- Using DDD20, we report the first study of fusing brightness change events and intensity frame data using a deep learning approach to predict the instantaneous human steering wheel angle
+
+
+#### [(CVPR 2020)EV-SegNet: Semantic Segmentation for Event-based Cameras](https://drive.google.com/file/d/1eTX6GXy5qP9I4PWdD4MkRRbEtfg65XCr/view)
+- Inigo Alonso, Ana C. Murillo
+- [code](https://github.com/xupinjie/Ev-SegNet)
+
+
+## Multi-modal fusion (Event camera)
+
 #### ✅｜[(IEEE RAL 2021)Combining events and frames using recurrent asynchronous multimodal network for monocular depth estimation](http://rpg.ifi.uzh.ch/RAMNet.html) 
 - Daniel Gehrig, Michelle Ru ̈egg, Mathias Gehrig, Javier Hidalgo-Carrio, Davide Scaramuzza
 - [code](http://rpg.ifi.uzh.ch/RAMNet.html)
 - Related work: SLAM:12, featuretracking:13,14,15, HDR reconstruction:16, deblurring:17, monocular depth:6,19,20,(7,21)(循环结构), fusion:9,10,22
                 RNN struggle:4,5,23,24(padding,copying,sampling), neural ODE:5, phased LSTM:4, 
-
-
-#### ✅｜[(CoRL 2018)ESIM-an Open Event Camera Simulator](http://rpg.ifi.uzh.ch/docs/CORL18_Rebecq.pdf)
-- [code](https://github.com/uzh-rpg/rpg_esim)
-
 
 
 #### ✅｜[(ICIAP 2019)Video synthesis from Intensity and Event Frames](https://iris.unimore.it/retrieve/handle/11380/1178955/233862/ICIAP19_Event_Cameras.pdf)
@@ -72,20 +84,26 @@
 - 一个全卷积encoder-decoder结构，将frame和event frame concat之后，预测将来的frame。
 
 
-#### [(ITSC 2020)DDD20 End-to-End Event Camera Driving Dataset: Fusing Frames and Events with Deep Learning for Improved Steering Prediction](https://arxiv.org/pdf/2005.08605.pdf)
-- Yuhuang Hu, Jonathan Binas, Daniel Neil, Shih-Chii Liu and Tobi Delbruck
-- [code]
-- Using DDD20, we report the first study of fusing brightness change events and intensity frame data using a deep learning approach to predict the instantaneous human steering wheel angle
-
-#### [(CVPR 2020)EV-SegNet: Semantic Segmentation for Event-based Cameras](https://drive.google.com/file/d/1eTX6GXy5qP9I4PWdD4MkRRbEtfg65XCr/view)
-- Inigo Alonso, Ana C. Murillo
-- [code](https://github.com/xupinjie/Ev-SegNet)
-
-#### [(ICMVA 2021)Standard and Event Cameras Fusion for Feature Tracking](https://dl.acm.org/doi/10.1145/3459066.3459075)
+#### ✅｜[(ICMVA 2021)Standard and Event Cameras Fusion for Feature Tracking](https://dl.acm.org/doi/10.1145/3459066.3459075)
 - Yan Dong, Tao Zhang
 - [code](https://github.com/LarryDong/FusionTracking)
 
-## Transformer multi-modal fusion
+
+#### [(CVPR 2021)EvDistill](https://arxiv.org/pdf/2111.12341.pdf)
+- Lin Wang, Yujeong Chae, Sung-Hoon Yoon, Tae-Kyun Kim, Kuk-Jin Yoon
+- [code](https://github.com/addisonwang2013/evdistill)
+
+#### [(CVPRW 2021)EFI-Net_Video_Frame_Interpolation_From_Fusion_of_Events_and_Frames_CVPRW_2021_paper](https://tub-rip.github.io/eventvision2021/papers/2021CVPRW_EFI-Net_Video_Frame_Interpolation_from_Fusion_of_Events_and_Frames.pdf)
+- Genady Paikin, Yotam Ater, Roy Shaul, Evgeny Soloveichik
+- [code]()
+
+## Transformer multi-modal fusion (Event camera)
+
+#### [(ICCV 2021)Event-Based_Video_Reconstruction_Using_Transformer](https://openaccess.thecvf.com/content/ICCV2021/html/Weng_Event-Based_Video_Reconstruction_Using_Transformer_ICCV_2021_paper)
+- Wenming Weng, Yueyi Zhang, Zhiwei Xiong
+- [code](https://github.com/WarranWeng/ET-Net)
+
+## Transformer multi-modal fusion (Other sensors)
 
 #### ✅｜[(CVPR 2021)Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/pdf/2104.09224.pdf) 
 - Aditya Prakash, Kashyap Chitta, Andreas Geiger
