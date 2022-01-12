@@ -69,6 +69,15 @@
 - [code](https://github.com/xupinjie/Ev-SegNet)
 
 
+#### [(CVPR 2021)Learning to Reconstruct High Speed and High Dynamic Range Videos from Events](https://openaccess.thecvf.com/content/CVPR2021/papers/Zou_Learning_To_Reconstruct_High_Speed_and_High_Dynamic_Range_Videos_CVPR_2021_paper.pdf)
+- Yunhao Zou Yinqiang Zheng Tsuyoshi Takatani Ying Fu 
+- [code]()
+
+#### [(ECCV 2020)Event Enhanced High-Quality Image Recovery](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580154.pdf)
+- Wang, Bishan and He, Jingwei and Yu, Lei and Xia, Gui-Song and Yang, Wen
+- [code](https://github.com/ShinyWang33/eSL-Net)
+
+
 ## Multi-modal fusion (Event camera)
 
 #### ✅｜[(IEEE RAL 2021)Combining events and frames using recurrent asynchronous multimodal network for monocular depth estimation](http://rpg.ifi.uzh.ch/RAMNet.html) 
@@ -99,9 +108,10 @@
 
 ## Transformer multi-modal fusion (Event camera)
 
-#### [(ICCV 2021)Event-Based_Video_Reconstruction_Using_Transformer](https://openaccess.thecvf.com/content/ICCV2021/html/Weng_Event-Based_Video_Reconstruction_Using_Transformer_ICCV_2021_paper)
+#### ✅｜[(ICCV 2021)Event-Based_Video_Reconstruction_Using_Transformer](https://openaccess.thecvf.com/content/ICCV2021/html/Weng_Event-Based_Video_Reconstruction_Using_Transformer_ICCV_2021_paper)
 - Wenming Weng, Yueyi Zhang, Zhiwei Xiong
 - [code](https://github.com/WarranWeng/ET-Net)
+- 提出一种CNN和Transformer的杂交网络，分为RCB，TPA和MLU三个部分，RCB进行下采样，获得多尺度，以及利用LSTM得到长期依赖关系，之后多个尺度输入到transformer中，通过编码器解码器提取多尺度上下文。MLU将TPA得到的全局上下文特征和RCB得到的局部特征结合并上采样，最后经过一个tail得到最终的复原图片。
 
 ## Transformer multi-modal fusion (Other sensors)
 
@@ -139,5 +149,11 @@
 #### DDD20(R)
 
 #### N-Caltech101(R)
+
+#### HQF
+- The HQF dataset, recorded by two DAVIS240C [5] cameras, provides high quality ground- truth frames, of which the motion blur is maximally mit- igated under preferable exposure. 14 sequences are con- tained , covering a wider range of motions and scene types, including static scenes and motion scenes of slow, medium and fast, indoor and outdoor scenes.
+
+#### IJRR
+- IJRR provides 25 real- istic datasets by DAVIS240C [5] and two synthetic datasets via the event camera simulator
 
 #### Eventscape(S)
