@@ -73,6 +73,10 @@
 - Yunhao Zou Yinqiang Zheng Tsuyoshi Takatani Ying Fu 
 - [code]()
 
+#### [(CVPR 2020)Learning to Super Resolve Intensity Images from Events](http://openaccess.thecvf.com/content_CVPR_2020/papers/I._Learning_to_Super_Resolve_Intensity_Images_From_Events_CVPR_2020_paper.pdf)
+- Mohammad Mostafavi, Jonghyun Choi and Kuk-Jin Yoon
+- [code](https://github.com/gistvision/e2sri)
+
 #### [(ECCV 2020)Event Enhanced High-Quality Image Recovery](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580154.pdf)
 - Wang, Bishan and He, Jingwei and Yu, Lei and Xia, Gui-Song and Yang, Wen
 - [code](https://github.com/ShinyWang33/eSL-Net)
