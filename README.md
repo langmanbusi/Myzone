@@ -80,10 +80,8 @@
 - [code](https://github.com/uzh-rpg/rpg_esim)
 
 
-#### [(ITSC 2020)DDD20 End-to-End Event Camera Driving Dataset: Fusing Frames and Events with Deep Learning for Improved Steering Prediction](https://arxiv.org/pdf/2005.08605.pdf)
+#### ✅｜[(ITSC 2020)DDD20 End-to-End Event Camera Driving Dataset: Fusing Frames and Events with Deep Learning for Improved Steering Prediction](https://arxiv.org/pdf/2005.08605.pdf)
 - Yuhuang Hu, Jonathan Binas, Daniel Neil, Shih-Chii Liu and Tobi Delbruck
-- [code]
-- Using DDD20, we report the first study of fusing brightness change events and intensity frame data using a deep learning approach to predict the instantaneous human steering wheel angle
 
 
 #### [(CVPR 2020)EV-SegNet: Semantic Segmentation for Event-based Cameras](https://drive.google.com/file/d/1eTX6GXy5qP9I4PWdD4MkRRbEtfg65XCr/view)
@@ -182,7 +180,9 @@
 - End-to-end DAVIS Driving Dataset, the first open dataset of annotated DAVIS driving recordings. The dataset contains more than 12 hours of recordings captured with a DAVIS sensor. Each recording includes both event data and grayscale frames along with vehicle information (e.g. vehicle speed, throttle, brake, steering angle). Recordings are captured in cities and highways, in dry and wet weather conditions, during day, evening, and night.
 
 #### [DDD20(R)](https://arxiv.org/pdf/2005.08605.pdf)
+- Yuhuang Hu, Jonathan Binas, Daniel Neil, Shih-Chii Liu and Tobi Delbruck
 - [Readme](https://docs.google.com/document/d/1Nnyjo4j0rvdgHQ0cS8z0Q1QBRLHDtwh7XW1u9ygmQEs/edit#), [home](https://sites.google.com/view/davis-driving-dataset-2020/home)
+- DDD20端到端事件摄像机驱动数据集：通过深度学习融合帧和事件，以改进转向预测
 
 #### N-Caltech101(R)
 
