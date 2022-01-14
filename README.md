@@ -46,7 +46,9 @@
 
 
 #### ✅｜[(2018 RSS)EV-FlowNet:Self-Supervised Optical Flow Estimation for Event-based Cameras](https://arxiv.org/pdf/1802.06898.pdf)
+- Alex Zihao Zhu, Liangzhe Yuan, Kenneth Chaney and Kostas Daniilidis
 - [code]
+- ![image](https://user-images.githubusercontent.com/89068081/149522308-aee8637d-4d58-41be-8c38-4957ba4a1d6a.png)
 - 首次运用FlowNet类似的下采样上采样结构进行光流估计。采用4CH输入数据，前两个通道是每个像素处发生的正事件和负事件的数量，后两个通道中的像素分别编码为该像素上最近的正事件和负事件的时间戳。输入大小为256×256×4的随机裁剪和旋转后的上述四通道图。绿色为下采样（编码）部分，通过步长为2的卷积实现，每一层的卷积结果保留，作为跳层链接到上采样（解码）层。在四层下采样（编码）后，中间两个蓝色的为两个残差块，对特征进行进一步提取。后面黄色的为上采样（解码）部分，通过对称padding实现。每一层的结果通过一个卷积核大小为1\*1的卷积，称为二通道的光流估计图（即图中向上的箭头），然后将在这个尺度计算一个loss，之后将这个光流估计图和这一层原来的图以及跳层链接的图进行cat连接，再通过上采样进入下一层。
 
 
