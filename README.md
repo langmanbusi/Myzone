@@ -36,8 +36,8 @@
 #### ✅｜[(2018 CVPR)Event-based Vision meets Deep Learning on Steering Prediction for Self-driving Cars](https://arxiv.org/pdf/1804.01310.pdf)
 - Ana I. Maqueda, Antonio Loquercio, Guillermo Gallego, Narciso Garc ́ıa, and Davide Scaramuzza
 - [code]
-- ![image](src="https://user-images.githubusercontent.com/89068081/149519450-fd180a0c-b8e2-4e00-8068-2fdfcd10b617.png" height="100")
-- ![image](https://user-images.githubusercontent.com/89068081/149519505-e28a6bd6-0c67-4213-97aa-c71be91cc4f9.png){:height="100px"}
+- ![image](https://user-images.githubusercontent.com/89068081/149519450-fd180a0c-b8e2-4e00-8068-2fdfcd10b617.png)
+- ![image](https://user-images.githubusercontent.com/89068081/149519505-e28a6bd6-0c67-4213-97aa-c71be91cc4f9.png)
 - 传统相机的偏差较大，事件相机的预测精确。传统相机在高速行驶以及不同光照条件下，图像会模糊并产生伪影，事件相机时间分辨率高，动态范围大。
 * 主要工作
   * 1)：首次实现了基于大规模事件相机数据的深度学习回归任务，并分析了为何事件相机数据能在这类任务上更有优势；
