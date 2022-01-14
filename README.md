@@ -36,8 +36,8 @@
 #### ✅｜[(2018 CVPR)Event-based Vision meets Deep Learning on Steering Prediction for Self-driving Cars](https://arxiv.org/pdf/1804.01310.pdf)
 - Ana I. Maqueda, Antonio Loquercio, Guillermo Gallego, Narciso Garc ́ıa, and Davide Scaramuzza
 - [code]
-- <image src="https://user-images.githubusercontent.com/89068081/149519450-fd180a0c-b8e2-4e00-8068-2fdfcd10b617.png" height="200">
-- <image src="https://user-images.githubusercontent.com/89068081/149519505-e28a6bd6-0c67-4213-97aa-c71be91cc4f9.png" height="200">
+- ![image](https://user-images.githubusercontent.com/89068081/149519450-fd180a0c-b8e2-4e00-8068-2fdfcd10b617.png)
+- ![image](https://user-images.githubusercontent.com/89068081/149519505-e28a6bd6-0c67-4213-97aa-c71be91cc4f9.png)
 - 传统相机的偏差较大，事件相机的预测精确。传统相机在高速行驶以及不同光照条件下，图像会模糊并产生伪影，事件相机时间分辨率高，动态范围大。
 * 主要工作
   * 1)：首次实现了基于大规模事件相机数据的深度学习回归任务，并分析了为何事件相机数据能在这类任务上更有优势；
@@ -48,16 +48,16 @@
 #### ✅｜[(2018 RSS)EV-FlowNet:Self-Supervised Optical Flow Estimation for Event-based Cameras](https://arxiv.org/pdf/1802.06898.pdf)
 - Alex Zihao Zhu, Liangzhe Yuan, Kenneth Chaney and Kostas Daniilidis
 - [code]
-- <image src="https://user-images.githubusercontent.com/89068081/149522308-aee8637d-4d58-41be-8c38-4957ba4a1d6a.png" height="200">
+- ![image](https://user-images.githubusercontent.com/89068081/149522308-aee8637d-4d58-41be-8c38-4957ba4a1d6a.png)
 - 首次运用FlowNet类似的下采样上采样结构进行光流估计。采用4CH输入数据，前两个通道是每个像素处发生的正事件和负事件的数量，后两个通道中的像素分别编码为该像素上最近的正事件和负事件的时间戳。输入大小为256×256×4的随机裁剪和旋转后的上述四通道图。绿色为下采样（编码）部分，通过步长为2的卷积实现，每一层的卷积结果保留，作为跳层链接到上采样（解码）层。在四层下采样（编码）后，中间两个蓝色的为两个残差块，对特征进行进一步提取。后面黄色的为上采样（解码）部分，通过对称padding实现。每一层的结果通过一个卷积核大小为1\*1的卷积，称为二通道的光流估计图（即图中向上的箭头），然后将在这个尺度计算一个loss，之后将这个光流估计图和这一层原来的图以及跳层链接的图进行cat连接，再通过上采样进入下一层。
 
 
 #### ✅｜[(2019 ICCV)End-to-End Learning of Representations for Asynchronous Event-Based Data](http://rpg.ifi.uzh.ch/docs/ICCV19_Gehrig.pdf)
 - Daniel Gehrig, Antonio Loquercio, Konstantinos G. Derpanis, Davide Scaramuzza
 - [code](https://github.com/uzh-rpg/rpg_event_representation_learning)
-- <image src="https://user-images.githubusercontent.com/89068081/149520032-b7ef3250-b317-4026-9bca-9bc3df862ad7.png" height="200">
+- ![image](https://user-images.githubusercontent.com/89068081/149520032-b7ef3250-b317-4026-9bca-9bc3df862ad7.png)
 - EST事件数据表示方法的优势在于，对于第一章中提到的四元组事件的位置、时间、极性信息可以全部利用上，因此可以充分利用事件流的高刷新率、高动态范围等优势。EST的建立过程主要有三步，在第一步中，作者引入连续的测量函数来具体化每个事件，将脉冲信号转化为一个具体的量，使其具有意义，第二步需要让事件序列继续与一个核变换函数进行卷积操作，此举可以使事件数据表现出更多可学习的特征，最后对得到的连续事件数据进行取样，使其离散化，得到最终的EST模型
-- <image src="https://user-images.githubusercontent.com/89068081/149520012-b0f383bf-4a6a-4677-a9cb-bbff6a217cf0.png" height="200">
+- ![image](https://user-images.githubusercontent.com/89068081/149520012-b0f383bf-4a6a-4677-a9cb-bbff6a217cf0.png)
 - 本文的另一个贡献在于实现了一种端到端的事件表示方法。对于核函数，作者直接引入了MLP作为卷积核，让网络自己决定需要什么样的核来提取事件数据的特征。因此在通过测量函数实值化时间序列之后，就进入了第一个可训练的网络，之后再离散化得到EST模型，以传统图像意义下的多通道的帧形式直接输入深度神经网络，最终输出结果，计算损失函数，同时反向传播到处理过程中的MLP和特征提取的ResNet，进行参数更新
 
 
