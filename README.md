@@ -181,7 +181,8 @@
 #### DDD17(R)
 - End-to-end DAVIS Driving Dataset, the first open dataset of annotated DAVIS driving recordings. The dataset contains more than 12 hours of recordings captured with a DAVIS sensor. Each recording includes both event data and grayscale frames along with vehicle information (e.g. vehicle speed, throttle, brake, steering angle). Recordings are captured in cities and highways, in dry and wet weather conditions, during day, evening, and night.
 
-#### DDD20(R)
+#### [DDD20(R)](https://arxiv.org/pdf/2005.08605.pdf)
+- [Readme](https://docs.google.com/document/d/1Nnyjo4j0rvdgHQ0cS8z0Q1QBRLHDtwh7XW1u9ygmQEs/edit#), [home](https://sites.google.com/view/davis-driving-dataset-2020/home)
 
 #### N-Caltech101(R)
 
