@@ -91,9 +91,11 @@
 - 提出了第一个baseline，将事件数据作为唯一的输入的CNN进行语义分割。并且提出了一个新的DVS数据表示方法，提出了在DDD17数据集上如何自动生成语义分割标签。在不同的表征方法上进行了比较，分析了事件数据和传统图像的优劣。6通道表征方法，2个正负极性channel，2个时间标准差channel，2个时间均值channel。
 
 
-#### [(CVPR 2021)Learning to Reconstruct High Speed and High Dynamic Range Videos from Events](https://openaccess.thecvf.com/content/CVPR2021/papers/Zou_Learning_To_Reconstruct_High_Speed_and_High_Dynamic_Range_Videos_CVPR_2021_paper.pdf)
+#### ✅｜[(CVPR 2021)Learning to Reconstruct High Speed and High Dynamic Range Videos from Events](https://openaccess.thecvf.com/content/CVPR2021/papers/Zou_Learning_To_Reconstruct_High_Speed_and_High_Dynamic_Range_Videos_CVPR_2021_paper.pdf)
 - Yunhao Zou Yinqiang Zheng Tsuyoshi Takatani Ying Fu 
 - [code]()
+- <img width="896" alt="image" src="https://user-images.githubusercontent.com/89068081/150493983-c2644403-8b2e-4847-bef2-e2d68d707b76.png">
+
 
 #### [(CVPR 2020)(TPAMI 2021)E2SRI-Learning to Super Resolve Intensity Images from Events](http://openaccess.thecvf.com/content_CVPR_2020/papers/I._Learning_to_Super_Resolve_Intensity_Images_From_Events_CVPR_2020_paper.pdf)
 - Mohammad Mostafavi, Jonghyun Choi and Kuk-Jin Yoon
